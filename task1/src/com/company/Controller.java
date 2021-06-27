@@ -3,7 +3,7 @@ package com.company;
 import java.util.Scanner;
 
 /**
- * Created by zxcubica on 24.06.2021.
+ * Created by zxcubika on 26.06.2021.
  */
 public class Controller {
     // Constructor

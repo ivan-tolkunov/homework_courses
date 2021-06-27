@@ -3,7 +3,7 @@ package com.company;
 import java.util.ArrayList;
 
 /**
- * Created by zxcubica on 26.06.2021.
+ * Created by zxcubika on 26.06.2021.
  */
 public class View {
     // Text's constants
