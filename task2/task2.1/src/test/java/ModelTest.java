@@ -24,9 +24,9 @@ public class ModelTest {
     public void randomNumber() {
         Model model = new Model();
         int i = 0;
-        while (i <= 1000) {
+        while (i <= 10000) {
             int number = model.randomNumber(GlobalConstants.PRIMARY_MIN_BARRIER, GlobalConstants.PRIMARY_MAX_BARRIER);
-            if (number < 0 || number > 100) Assertions.fail();
+            if (number <= 0 || number >= 100) Assertions.fail();
             i++;
         }
     }

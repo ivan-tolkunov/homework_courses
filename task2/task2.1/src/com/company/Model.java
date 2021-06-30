@@ -49,7 +49,8 @@ public class Model {
      * @return randomNumber
      */
     public int randomNumber(int min, int max) {
-        return (int) Math.floor(Math.random() * (max - min + 1) + min);
+        return (int)Math.ceil(Math.random()*
+                (max - min - 1) + min);
     }
 
     public int getLowLimit() {
