@@ -1,5 +1,7 @@
-package com.company;
+package test.java;
 
+import com.company.GlobalConstants;
+import com.company.Model;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
