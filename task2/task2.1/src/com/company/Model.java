@@ -14,10 +14,10 @@ public class Model {
         Correct
     }
 
-    int randomNumber;
-    int lowLimit = 0;
-    int highLimit = 100;
-    ArrayList<Integer> userAttempts = new ArrayList<>();
+    private int randomNumber;
+    private int lowLimit = GlobalConstants.PRIMARY_MIN_BARRIER;
+    private int highLimit = GlobalConstants.PRIMARY_MAX_BARRIER;
+    private ArrayList<Integer> userAttempts = new ArrayList<>();
 
     public Model() {
         this.randomNumber = randomNumber(0, 100);
@@ -48,10 +48,9 @@ public class Model {
      * in this method generate random number
      * @return randomNumber
      */
-    private int randomNumber(int min, int max) {
+    public int randomNumber(int min, int max) {
         return (int) Math.floor(Math.random() * (max - min + 1) + min);
     }
-
 
     public int getLowLimit() {
         return lowLimit;
@@ -63,6 +62,14 @@ public class Model {
 
     public ArrayList<Integer> getUserAttempts() {
         return userAttempts;
+    }
+
+    public int getRandomNumber() {
+        return randomNumber;
+    }
+
+    public void setRandomNumber(int randomNumber) {
+        this.randomNumber = randomNumber;
     }
 
 }

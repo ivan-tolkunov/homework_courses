@@ -17,7 +17,7 @@ public class Controller {
     }
 
     // The Work method
-    public void userProgress() {
+    public void processUser() {
         view.messageRange(model.getLowLimit(), model.getHighLimit());
         while (true) {
             int number = enterNumber();
