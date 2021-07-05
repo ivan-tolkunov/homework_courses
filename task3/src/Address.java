@@ -1,4 +1,6 @@
 public class Address {
+
+    // Constructor
     String cityIndex;
     String city;
     String street;

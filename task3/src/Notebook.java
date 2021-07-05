@@ -1,4 +1,6 @@
 public class Notebook {
+
+    // Constructor
     String surname;
     String name;
     String middleName;
