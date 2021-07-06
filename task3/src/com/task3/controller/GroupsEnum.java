@@ -1,3 +1,5 @@
+package com.task3.controller;
+
 public enum GroupsEnum {
     IA91,
     IA92,

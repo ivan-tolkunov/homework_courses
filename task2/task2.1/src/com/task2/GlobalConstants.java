@@ -1,4 +1,4 @@
-package com.company;
+package com.task2;
 
 /**
  * Created by zxcubika on 29.06.2021.

@@ -1,3 +1,5 @@
+package com.task3.controller;
+
 public class Notebook {
 
     // Constructor
@@ -46,7 +48,7 @@ public class Notebook {
                 "E-mail: " + email + '\n' +
                 "Skype: " + skype + '\n' +
                 address.toString() +
-                "Notebook entry dates: " + notebookEntryDates + '\n' +
+                "com.company.controller.Notebook entry dates: " + notebookEntryDates + '\n' +
                 "Dates of the last modification of the entry: " + datesOfTheLastModificationOfTheEntry + '\n';
     }
 

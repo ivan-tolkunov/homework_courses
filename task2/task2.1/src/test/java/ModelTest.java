@@ -1,7 +1,7 @@
 package test.java;
 
-import com.company.GlobalConstants;
-import com.company.Model;
+import com.task2.GlobalConstants;
+import com.task2.Model;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
