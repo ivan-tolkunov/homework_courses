@@ -1,15 +1,14 @@
 public class MyList {
-    Node list;
     Node tale;
     Node head;
 
     public void addElement(int element) {
-        if (this.list == null) {
-            this.list = new Node();
-            this.list.setIndex(0);
-            this.list.setNumber(element);
-            this.tale = this.list;
-            this.head = this.list;
+        if (this.head == null) {
+            this.head = new Node();
+            this.head.setIndex(0);
+            this.head.setNumber(element);
+            this.tale = this.head;
+            this.head = this.head;
         } else if (this.head.equals(this.tale)) {
             this.head.setNext(new Node());
             this.head.getNext().setIndex(this.head.getIndex() + 1);
