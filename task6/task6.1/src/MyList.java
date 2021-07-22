@@ -8,7 +8,6 @@ public class MyList {
             this.head.setIndex(0);
             this.head.setNumber(element);
             this.tale = this.head;
-            this.head = this.head;
         } else if (this.head.equals(this.tale)) {
             this.head.setNext(new Node());
             this.head.getNext().setIndex(this.head.getIndex() + 1);
